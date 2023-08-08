@@ -18,13 +18,13 @@ const NavBar = () => {
           </MenuButton>
           <MenuList>
             <MenuItem>
-              <Link to={`/category/${'cat1'}`}>Categoria A</Link>
+              <Link to={`/category/${'cat1'}`}>Camperas</Link>
             </MenuItem>
             <MenuItem>
-              <Link to={`/category/${'cat2'}`}>Categoria B</Link>
+              <Link to={`/category/${'cat2'}`}>Pantalones</Link>
             </MenuItem>
             <MenuItem>
-              <Link to={`/category/${'cat3'}`}>Categoria C</Link>
+              <Link to={`/category/${'cat3'}`}>Remeras</Link>
             </MenuItem>
           </MenuList>
         </Menu>

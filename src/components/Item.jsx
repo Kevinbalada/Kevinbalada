@@ -23,10 +23,10 @@ const Item = ({ id, name, description, category, addToCart }) => {
             mt='6'
           />
           <CardFooter>
-            <Button variant='solid' colorScheme='green' onClick={() => addToCart({ id, name, description, category })}>
+            <Button variant='solid' colorScheme='green'>
               Agregar al carrito
             </Button>
-            <Link to={`/item/${id}`}>
+            <Link to={`/productos/${id}`}>
               <Button variant='solid' colorScheme='purple'>
                 Detalles de producto
               </Button>
